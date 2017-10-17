@@ -23,6 +23,6 @@ function maybeTrue() {
 var doWhileLoop = function(array){
   do {
     array.slice(-1)
-  }while(array.length > 0 && maybeTrue()){
-  } return array
+  }while(array.length > 0 && maybeTrue())
+  return array
 }
