@@ -15,3 +15,13 @@ var whileLoop = function(n){
   }
     return 'done'
 }
+
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
+var doWhileLoop = function(array){
+  do {
+    array.slice(-1)
+  }while(array.length > 0 && maybeTrue())
+}
